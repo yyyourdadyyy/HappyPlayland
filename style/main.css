@@ -366,6 +366,45 @@ a {
     font-size: 18px;
 }
 
+/* TASK PAGE */
+
+.rows-task {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 680px;
+    padding: 28px 48px;
+    background: linear-gradient(to bottom, #FBAE17, #fff3da);
+    border-radius: 20px;
+    width: 300px;
+}
+
+.card-task img {
+    height: 680px;
+}
+
+.title-card-task {
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+
+.link-task {
+    color: #FBAE17;
+    padding: 13px 48px;
+    background-color: white;
+    width: 33%;
+    text-align: center;
+}
+
 
 
 
