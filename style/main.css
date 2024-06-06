@@ -51,6 +51,10 @@ a {
     text-decoration: none;
 }
 
+.active {
+    font-weight: bold !important;
+}
+
 /* HEADER */
 
 .nav {
@@ -232,6 +236,123 @@ a {
     color: white;
     font-weight: 300;
 }
+
+/* task page */
+
+.task-title {
+    font-size: 48px;
+    color: #875E0E;
+    font-weight: bold;
+    margin: 0px 0px 33px 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto ;
+    gap: 10px;
+}
+
+.item1,.item2,.item3,.item4,.item5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item1 {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    padding: 26px 29px;
+    background: linear-gradient(to bottom, #00D1FF, white);
+    min-height: 371px;
+}
+
+.img-metods {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.item3-img {
+    bottom: 0;
+    left: 50%;
+}
+
+.link-metods {
+    padding: 13px 32px;
+    background-color: white;
+    color: #0CD3FF;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 86px;
+    position: relative;
+    z-index: 2;
+}
+
+.item2 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+    background: linear-gradient(to bottom, #FF7F50, white);
+    padding: 20px;
+    text-align: center;
+}
+
+.color-orange {
+    color: #FF8254;
+}
+
+.item3 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background: linear-gradient(to right, #8CB8A8, #8cb8a833);
+    padding: 20px;
+    text-align: center;
+    height: 285px;
+}
+
+.color-green {
+    color: #8EB9AA;
+    font-weight: bold;
+}
+
+.item3 p {
+    text-align: left;
+}
+
+.item4 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    background: linear-gradient(to bottom, #00D1FF, white);
+    padding: 20px;
+    text-align: center;
+    min-width: 408px;
+}
+
+.item5 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+    background: linear-gradient(to bottom, #FF82E3, white);
+    padding: 20px;
+    text-align: center;
+    min-width: 408px;
+}
+
+.color-pink {
+    color: #FF82E3;
+}
+
+.title-metods {
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+
 
 
 
