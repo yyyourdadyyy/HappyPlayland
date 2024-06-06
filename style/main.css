@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: inter, sans-serif;
 }
 
 /* tech*/
@@ -13,23 +14,224 @@ body, html {
 
 @font-face {
     font-family: 'inter';
-    src: url('../fonts/Inter-Regular.ttf') format('ttf');
+    src: url('../fonts/Inter-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('../fonts/Inter-Bold.ttf') format('ttf');
+    src: url('../fonts/Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('../fonts/Inter-SemiBold.ttf') format('ttf');
-    font-weight: 600; 
+    src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HEADER */
+
+.nav {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #FBAE17;
+    font-weight:300;
+}
+
+.logo-text span {
+    color: #FBAE17;
+    font-weight: bold;
+}
+
+.link-nav-login {
+    display: flex;
+    gap: 31px;
+}
+
+.link-nav {
+    font-size: 22px;
+    color: #875E0E;
+    font-weight: 300;
+}
+
+.login a {
+    padding: 20px 37px ;
+    border: 1px solid #FBAE17;
+    color: #FBAE17;
+    border-radius: 35px;
+    margin-left: 30px;
+}
+
+
+/* main page */
+
+.rows-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-main {
+    background-image: url('../img/bg-div.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.title-main {
+    font-weight: bold;
+    color: #875E0E;
+    font-size: 96px;
+    margin: 95px 0px 75px 0px;
+}
+
+.decr-title-main {
+    font-weight: 200;
+    font-size: 34px;
+    max-width: 740px;
+    margin-bottom: 110px;
+}
+
+.link-main {
+    padding: 16px 56px;
+    background-color: #FBAE17;
+    color: white;
+    border-radius: 35px;
+    font-size: 28px;
+}
+
+.plus-main {
+    display: flex;
+    gap: 10px;
+}
+
+.plus-main p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pluses-main {
+    position: absolute;
+    bottom: 0;
+    padding: 27px 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #fbae170d;
+    border-radius: 20px;
+    backdrop-filter: blur(7px);
+}
+
+.img-main {
+    position: relative;
+}
+
+/* login page */
+
+.login-rows {
+    margin-top: 30px;
+}
+
+.login-form {
+    padding: 40px 90px;
+    background-color: #FBAE17;
+    border-radius: 80px;
+    width: 38%;
+}
+
+.login-form h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 64px;
+    margin: 0px 0px 40px 0px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-login label {
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.input-form {
+    border-radius: 39px;
+    padding: 25px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+}
+
+.form-login input:focus {
+    outline: 1px solid #584e3a;
+}
+
+.passworld-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 35px 0px 95px 0px;
+}
+
+.btn-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-submit {
+    padding: 20px 95px;
+    color: #FBAE17;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.reg-page-link {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+}
+
+
+
