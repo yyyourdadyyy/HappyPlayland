@@ -353,6 +353,20 @@ a {
 }
 
 
+/* work page */
+
+.rows-work {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-work li {
+    color: #875E0E;
+    font-size: 18px;
+}
+
+
 
 
 
