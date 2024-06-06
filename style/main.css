@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tech*/
+
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter-SemiBold.ttf') format('ttf');
+    font-weight: 600; 
+    font-style: normal;
+}
+
+/* HEADER */
