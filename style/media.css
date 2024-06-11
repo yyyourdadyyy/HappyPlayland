@@ -72,9 +72,18 @@
     text-align: center;
  }
 
- .header {
+.link-nav-login {
     display: none;
- }
+}
+
+.nav {
+    padding: 0px 15px 0px 0px;
+    height: 90px;
+}
+
+.burger-menu {
+    display: flex;
+  }
 
 }
 
@@ -116,6 +125,14 @@
      .main {
         padding: 0px;
      }
+
+     .logo-text {
+        font-size: 21px;
+    }
+
+    .logo img {
+        width: 85px;
+    }
      
 }
     
