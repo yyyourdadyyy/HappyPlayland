@@ -92,7 +92,7 @@ a {
 .menu {
     display: flex;
     list-style-type: none;
-    background: linear-gradient(to right, #fbaf1762, #8cb8a833);
+    background: linear-gradient(to right, #fbaf17fa, #dde9e5a6);
     backdrop-filter: blur(8px);
     height: 100%;
     flex-direction: column;
