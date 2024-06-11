@@ -80,15 +80,21 @@
 
  @media (max-width:650px) {
      .pluses-main {
-        flex-direction: column;
         padding: 25px 15px;
      }
+
+     .plus-main {
+        flex-direction: column;
+        align-items: center;
+     }
+
      .plus-main img {
         width: 38px;
      }
 
     .plus-main p {
         font-size: 14px;
+        margin: 0px;
     }
     .title-main {
         font-size: 50px;
@@ -102,6 +108,14 @@
     .link-main {
         padding: 9px 47px;
     }
+
+    .pers-main {
+        display: none;
+     }
+
+     .main {
+        padding: 0px;
+     }
      
 }
     
