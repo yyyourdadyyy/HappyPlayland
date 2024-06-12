@@ -87,6 +87,23 @@
     font-size: 36px;
     } 
 
+    .rows-work {
+        flex-wrap: wrap;
+        padding: 0px 15px 0px 15px;
+    }
+
+    ol {
+        padding: 0px 0px 0px 24px;
+    }
+
+    .rows-work {
+        gap: 10px;
+    }
+    .rows-task {
+        justify-content: center ;
+        align-items: center ;
+    }
+
 }
 
 @media (max-width:830px) {
@@ -102,7 +119,24 @@
         width: 100%;
         height: 300px;
     }
+
+    .main {
+        margin-top: 20px;
+    }
+    
+    .card-task {
+        height: 429px;
+        padding: 28px 29px;
+    }
+
+    .card-task img {
+        max-width: 100%;
+        height: 333px !important;
+    }
   
+    .card-img-two {
+        min-height: 400px !important;
+    }
 }
 
 @media (max-width:650px) {
@@ -184,6 +218,10 @@
 
 .rows-cartoons-video iframe {
     height: 220px;
+}
+
+.main-text-mobilu {
+    font-size: 22px;
 }
 
     

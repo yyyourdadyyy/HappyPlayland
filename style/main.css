@@ -414,10 +414,22 @@ a {
     gap: 40px;
 }
 
-.text-work li {
+.block-work li {
     color: #875E0E;
     font-size: 18px;
 }
+
+.block-work img {
+    max-width: 100%;
+    height: auto;
+}
+
+.block-work {
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+
 
 /* TASK PAGE */
 
@@ -426,6 +438,7 @@ a {
     justify-content: space-between;
     gap: 15px;
     padding-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .card-task {
