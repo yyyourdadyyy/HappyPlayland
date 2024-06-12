@@ -20,7 +20,6 @@
     }
 }
 
-
 @media (max-width:1400px) {
    .pluses-main {
     gap: 19px;
@@ -31,7 +30,6 @@
     font-size: 74px;
    }
 }
-
 
 @media (max-width:1250px) {
    .rows-main {
@@ -81,58 +79,113 @@
     height: 90px;
 }
 
-.burger-menu {
-    display: flex;
-  }
+.menu-mobilu {
+    display: block;
+}
+
+.task-title {
+    font-size: 36px;
+    } 
 
 }
 
- @media (max-width:650px) {
-     .pluses-main {
-        padding: 25px 15px;
-     }
-
-     .plus-main {
-        flex-direction: column;
-        align-items: center;
-     }
-
-     .plus-main img {
-        width: 38px;
-     }
-
-    .plus-main p {
-        font-size: 14px;
-        margin: 0px;
-    }
-    .title-main {
-        font-size: 50px;
-     }
-
-     .decr-title-main {
-        font-size: 22px;
-    padding: 0px 20px 0px 20px;
+@media (max-width:830px) {
+    .new-cartoons-video {
+        justify-content: center;
     }
 
-    .link-main {
-        padding: 9px 47px;
+    .rows-cartoons {
+        padding: 0px 15px 0px 15px;
     }
 
-    .pers-main {
-        display: none;
-     }
+    .rows-cartoons-video iframe {
+        width: 100%;
+        height: 300px;
+    }
+  
+}
 
-     .main {
-        padding: 0px;
-     }
-
-     .logo-text {
-        font-size: 21px;
+@media (max-width:650px) {
+    .pluses-main {
+       padding: 25px 15px;
     }
 
-    .logo img {
-        width: 85px;
+    .plus-main {
+       flex-direction: column;
+       align-items: center;
     }
-     
+
+    .plus-main img {
+       width: 38px;
+    }
+
+   .plus-main p {
+       font-size: 14px;
+       margin: 0px;
+   }
+   .title-main {
+       font-size: 50px;
+    }
+
+    .decr-title-main {
+       font-size: 22px;
+   padding: 0px 20px 0px 20px;
+   }
+
+   .link-main {
+       padding: 9px 47px;
+   }
+
+   .pers-main {
+       display: none;
+    }
+
+    .main {
+       padding: 0px;
+    }
+
+    .logo-text {
+       font-size: 21px;
+   }
+
+   .logo img {
+       width: 85px;
+   }
+
+   .logo-text {
+       display: none;
+   }
+
+   .main-text-mobilu{
+       display: block;
+   }
+
+   .inner-menu-mobilu a {
+       font-size: 12px;
+   }
+
+   .inner-menu-mobilu {
+       gap: 21px;
+   }
+
+   .task-title {
+       display: none;
+   }
+
+   .title-new-video {
+    font-size: 34px;
+    margin: 20px 0px 5px 0px;
+}
+
+.rows-cartoons-video {
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.rows-cartoons-video iframe {
+    height: 220px;
+}
+
+    
 }
     
