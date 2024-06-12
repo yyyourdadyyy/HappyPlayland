@@ -68,6 +68,8 @@ a {
 .menu-mobilu {
     display: none;
     position: fixed;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     width: 100%;
     bottom: 0;
     background-color: white;
@@ -150,7 +152,6 @@ a {
     border-radius: 35px;
     margin-left: 30px;
 }
-
 
 /* main page */
 
@@ -531,6 +532,12 @@ iframe {
 .bg-profile-img {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+}
+
+.bg-profile-img img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
 }
 
 .main-profiles {

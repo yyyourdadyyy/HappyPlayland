@@ -104,6 +104,31 @@
         align-items: center ;
     }
 
+    .profile-date {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .main-profiles {
+        position: static;
+    }
+
+    .profile-date img {
+        width: 185px;
+    }
+
+    .favorites-game h2 {
+        margin-top: 285px;
+        font-size: 30px;
+    }
+
 }
 
 @media (max-width:830px) {
@@ -137,7 +162,37 @@
     .card-img-two {
         min-height: 400px !important;
     }
+
+    .profile-date img {
+        width: 120px;
+        border: 7px solid white;
+    }
+
+    .favorites-game h2 {
+        font-size: 23px;
+        margin-top: 210px;
+    }
+    .favorites-game {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .name-date {
+        font-size: 22px;
+    }
+
+    .decr-date,.level-date {
+        font-size: 13px;
+    }
+
+    .header-profile-mobilu {
+        display: none;
+    }
+
+    .profile-date {
+        top: 45% !important;
+    }
 }
+
 
 @media (max-width:650px) {
     .pluses-main {
